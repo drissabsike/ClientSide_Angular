@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Convertisseur Devis</title>
+</head>
+<body>
+<div class="bg-img"> 
+ <div class="container"><br>
+  <span class="badge rounded-pill bg-primary">Convertisseur Devis V1
+    <img src="/assets/convertisseur-euros-a-dirhams.png" width="10%" height="10%"/>
+  </span>
+  <span class="badge rounded-pill bg-warning text-dark">{{msg}}</span><br>
+      <span class="badge bg-dark">MAD</span>
+         <input type="number" class="form-control" name="madDevis" #box (keyup)="getValueDH(box.value)"
+                   step="1" placeholder="Dirham marocain" value="1">
+        <br>
+      <span class="badge bg-success">EURO € </span>
+          <input type="text" class="form-control"placeholder="Euro" value="{{resultEur}}€" readonly>
+          <br>
+   <span class="badge bg-success">USD $</span>
+          <input type="text" class="form-control"placeholder="Usd" value="{{resultUsd}}$" readonly>
+          <br>
+   <span class="badge bg-success"> Livre sterling £</span>
+         <input class="form-control" type="text" placeholder="Livre sterling" value="{{resultLivre}}£" readonly>
+         <br>
+   <span class="badge bg-success">TURKISH lira ₺ </span>
+       <input type="text" class="form-control" placeholder="Lira" value="{{resultLira}}₺" readonly>
+       <br>
+    <span class="badge bg-success">WON sud-coréen ₩</span>
+       <input type="text" class="form-control" placeholder="Won sud-coréen" value="{{resultWon}}₩" readonly>
+       <br>
+   <span class="badge bg-success">YEN JAP ¥</span>
+        <input type="text" class="form-control" placeholder="Yen" value="{{resultYen}}¥" readonly>
+        <br>
+    <span class="badge bg-success">DOLLAR Canadien $</span>
+       <input type="text" class="form-control" placeholder="Dollar Canadien" value="{{resultCanad}}$" readonly>
+        <br>
+      </div>
+</div>

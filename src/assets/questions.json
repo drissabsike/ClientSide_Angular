@@ -1,0 +1,166 @@
+{
+  "questions": [{
+    "questionText": "Lequel des éléments suivants TypeScript utilise-t-il pour spécifier les types ?",
+    "options": [
+      {
+      "text": ":",
+      "correct": true
+      },
+      {
+        "text": ";"
+      },
+      {
+        "text": "!"
+      },
+      {
+        "text": "&"
+      }
+    ],
+    "explanation": "TS uses a colon (:) to separate the property name from the property type"
+  },
+    {
+      "questionText": "Lequel des éléments suivants n'est PAS un type utilisé dans TypeScript?",
+      "options": [{
+        "text": "number"
+      },
+        {
+          "text": "string"
+        },
+        {
+          "text": "boolean"
+        },
+        {
+          "text": "enum",
+          "correct": true
+        }
+      ],
+      "explanation": "enum is not used as a type in TypeScript"
+    },
+    {
+      "questionText": "Comment pouvons-nous spécifier les propriétés et les méthodes d'un objet dans TypeScript?",
+      "options": [{
+        "text": "Use classes."
+      },
+        {
+          "text": "Use interfaces.",
+          "correct": true
+        },
+        {
+          "text": "Use enums."
+        },
+        {
+          "text": "Use async/await."
+        }
+      ],
+      "explanation": "interfaces are typically used to list the properties and methods for an object"
+    },
+    {
+      "questionText": "Sinon, comment Array<number> peut-il être écrit en TypeScript?",
+      "options": [{
+        "text": "@number"
+      },
+        {
+          "text": "number[]",
+          "correct": true
+        },
+        {
+          "text": "number!"
+        },
+        {
+          "text": "number?"
+        }
+      ],
+      "explanation": "number[] is another way of writing Array<number> in TypeScript"
+    },
+    {
+      "questionText": "Dans lequel de ceux-ci une classe prend-elle des paramètres?",
+      "options": [{
+        "text": "constructor",
+        "correct": true
+      },
+        {
+          "text": "destructor"
+        },
+        {
+          "text": "import"
+        },
+        {
+          "text": "subscribe"
+        }
+      ],
+      "explanation": "a constructor is used by a class to take in parameters"
+    },
+    {
+      "questionText": "Ce qui n'est PAS un modificateur d'accès?",
+      "options": [{
+        "text": "private"
+      },
+        {
+          "text": "protected"
+        },
+        {
+          "text": "public"
+        },
+        {
+          "text": "async",
+          "correct": true
+        }
+      ],
+      "explanation": "async is not used as an access modifier type in TypeScript"
+    },
+    {
+      "questionText": "Quel mot-clé nous permet de partager des informations entre les fichiers dans TypeScript?",
+      "options": [{
+        "text": "import"
+      },
+        {
+          "text": "export",
+          "correct": true
+        },
+        {
+          "text": "async"
+        },
+        {
+          "text": "constructor"
+        }
+      ],
+      "explanation": "the export keyword allows for the information to be transmitted between files"
+    },
+    {
+      "questionText": "Quelle est une méthode de tableau pour générer un nouveau tableau basé sur une condition?",
+      "options": [{
+        "text": "filter",
+        "correct": true
+      },
+        {
+          "text": "map"
+        },
+        {
+          "text": "async"
+        },
+        {
+          "text": "enum"
+        }
+      ],
+      "explanation": "filter is a method used to conditionally create a new array"
+    },
+    {
+      "questionText": "Comment une propriété est-elle accessible dans une class?",
+      "options": [{
+        "text": "Using this.propertyName",
+        "correct": true
+      },
+        {
+          "text": "Accessors"
+        },
+        {
+          "text": "Destructuring"
+        },
+        {
+          "text": "Arrow function"
+        }
+      ],
+      "explanation": "this.propertyName is the way to access a specific property within a class"
+    }
+  ]
+}

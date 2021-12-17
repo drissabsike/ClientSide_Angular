@@ -1,0 +1,42 @@
+
+input[type=text]{
+  width: 80%;
+}
+input[type=number] {
+  width: 60%;
+}
+
+#msg{
+  color: red;
+}
+
+.nav-item {
+  height: 30px;
+  overflow: hidden;
+}
+.fadebox {
+  display: inline-block;
+  font-size: 21px;
+  font-family: sans-serif;
+  line-height: 30px;
+  text-decoration: underline;
+  transform: translateY(30px);
+  animation: fadeInText 600ms 0ms forwards;
+}
+
+fadebox:nth-child(3) {
+  animation-delay: 300ms;
+}
+
+@keyframes fadeInText {
+  from {
+    transform: translateY(30px);
+    opacity: 0;
+  } to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
